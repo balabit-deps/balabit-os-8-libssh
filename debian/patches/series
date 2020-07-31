@@ -1,0 +1,8 @@
+1003-custom-lib-names.patch
+2003-disable-expand_tilde_unix-test.patch
+2004-install-static-lib.patch
+CVE-2020-1730.patch
+CVE-2020-16135-1.patch
+CVE-2020-16135-2.patch
+CVE-2020-16135-3.patch
+CVE-2020-16135-4.patch
