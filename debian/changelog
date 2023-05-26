@@ -1,3 +1,17 @@
+libssh (0.9.3-2ubuntu2.3) focal-security; urgency=medium
+
+  * SECURITY UPDATE: Potential NULL dereference during rekeying with
+    algorithm guessing
+    - debian/patches/CVE-2023-1667-*.patch: upstream patches to fix the
+      issue.
+    - CVE-2023-1667
+  * SECURITY UPDATE: Authorization bypass in pki_verify_data_signature
+    - debian/patches/CVE-2023-2283-*.patch: upstream patches to fix the
+      issue.
+    - CVE-2023-2283
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Fri, 26 May 2023 07:10:23 -0400
+
 libssh (0.9.3-2ubuntu2.2) focal-security; urgency=medium
 
   * SECURITY UPDATE: possible heap-buffer overflow when rekeying
